@@ -25,7 +25,11 @@ public class JdbcMain {
                     break;
 
                 case 3 :
+                    dao.empUpdate();
+                    break;
                 case 4 :
+                    dao.empDelete();
+                    break;
                 case 5 :
                     System.out.println("메뉴를 종료합니다.");
                     return;
